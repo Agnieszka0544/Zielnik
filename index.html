@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Zielnik zawierający zdjęcia i opisy roślin." />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Agnieszka Trojanowska" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zielnik</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .header-background {
+            background-image: url('images/łąka.jpg');
+            background-size: 100% auto;
+            padding: 120px;
+            background-position: center;
+            text-align: center;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        @media (max-width: 900px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+
+        .plant {
+            margin: 70px;
+            padding: 15px
+        }
+
+        .image {
+            width: 550px;
+            height: auto;
+            padding-bottom: 10px;
+        }
+
+        .text {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-background">
+        <h1>Zielnik</h1>
+    </div>
+
+    <!--<img src="images/łąka.jpg">-->
+    <!--https://www.petalrepublic.com/how-long-wildflowers-take-to-grow/-->
+
+    <div class="plant">
+        <h2>Mak</h2>
+        <div class="flex-container">
+            <img src="images/mak.jpeg" alt="Mak" class="image" />
+            <p class="text">Mak (Papaver L.) Eaton – rodzaj roślin z rodziny makowatych (Papaveraceae Juss.). Jest
+                rodzimy dla Eurazji, Afryki i Ameryki Północnej. Zalicza się do niego w zależności od ujęcia od ok.
+                100 do niemal 150 gatunków. Niemal wszystkie gatunki występują na półkuli północnej i poza
+                gatunkami introdukowanymi tylko jeden rośnie w Afryce Południowej.
+                Wiele gatunków uprawianych jest jako rośliny ozdobne. Mak lekarski (Papaver somniferum) jest surowcem, z
+                którego wytwarzana jest heroina, morfina i opium. Nasiona wykorzystywane są w piekarnictwie i
+                cukiernictwie. Niektóre gatunki wykorzystywane są w ziołolecznictwie (np. mak polny P. rhoeas).
+                Centrum zróżnicowania rodzaju obejmuje wschodnią część basenu Morza Śródziemnego i południowo-zachodnią
+                Azję. Większość gatunków rośnie w Europie, Azji i północnej Afryce. W Ameryce Północnej rośnie 11
+                gatunków rodzimych. Poza tym w południowej Afryce rośnie jeden gatunek – Papaver aculeatum. Liczne
+                gatunki rosną w strefie okołobiegunowej i na obszarach górskich. Papaver radicatum należy do najdalej na
+                północy rosnących roślin – sięga do 83°N. </p>
+        </div>
+        <a href="https://pl.wikipedia.org/wiki/Mak#Systematyka">https://pl.wikipedia.org/wiki/Mak#Systematyka</a>
+    </div>
+
+    <div class="plant">
+        <h2>Chaber bławatek</h2>
+        <div class="flex-container">
+            <img src="images/chaber-bławatek.JPG" alt="Chaber bławatek" class="image" />
+            <p class="text">Chaber bławatek, bławatek (Centaurea cyanus L., w niektórych ujęciach systematycznych
+                Cyanus segetum Hill) – gatunek rośliny zielnej z rodziny astrowatych. Nazwy ludowe: białasy,
+                głowacz, jasieniec, kardy, kwiatek wołoszek, macoszka, modrak, modrzeńczyk, samosiejka, wasilek,
+                wawer. Występuje w Europie oraz na Syberii Zachodniej. W Polsce pospolity chwast polny, archeofit.
+                Roślina zielna, słabo ulistniona, tworzy łany, osiąga wysokość 30–90 cm.
+                Łodyga cienka, prosta, lekko żeberkowana, pajęczynowato owłosiona, rozgałęziona.
+                Liście ułożone skrętolegle, najczęściej równowąskolancetowate, szarozielone, szerokości 2–5 mm. Dolne na
+                ogonkach, z pojedynczymi, małymi ząbkami lub pierzastodzielne z 2-3 łatkami. Górne niepodzielone,
+                siedzące.
+                Kwiaty tylko rurkowate. Pojedyncze koszyczki kwiatowe o średnicy 2–3 cm wyrastają na szczytach pędów z
+                łuskowatej, podłużnej okrywy. Przyczepki listków okrywy brzegiem piłkowanoząbkowane lub orzęsione.
+                Korona o 5 rurkowato zrośniętych płatkach o barwie ciemnobłękitnej, czerwonej, różowej lub białej.
+                Kwiaty brzeżne większe, 5 pręcików, słupek dolny, złożony z 2 owocolistków. Okres kwitnienia od maja do
+                września.
+                Owoce jedwabiście puszyste, przeważnie niebieskoszarobrązowe z białym wierzchołkiem niełupki. Jedna
+                roślina wytwarza około 700–1600 nasion.
+            </p>
+        </div>
+        <a
+            href="https://pl.wikipedia.org/wiki/Chaber_b%C5%82awatek">https://pl.wikipedia.org/wiki/Chaber_b%C5%82awatek</a>
+    </div>
+
+    <div class="plant">
+        <h2>Słonecznik</h2>
+        <div class="flex-container">
+            <img src="images/słonecznik.jpg" alt="Słonecznik" class="image" />
+            <p class="text">Słonecznik (Helianthus L.) – rodzaj roślin z rodziny astrowatych. Obejmuje ponad 50
+                gatunków. Występują one naturalnie w Ameryce Północnej na obszarze od Kanady po południowy Meksyk.
+                Poza tym rozprzestrzenione zostały na wszystkich kontynentach z wyjątkiem obszarów równikowych. W
+                naturze rośliny te rosną na suchych lub wilgotnych siedliskach w obrębie prerii, formacji zaroślowych i
+                leśnych. W Polsce introdukowane i zadomowione już rosną trzy gatunki: słonecznik bulwiasty
+                (topinambur) H. tuberosus, słonecznik dziesięciopłatkowy H. decapetalus i słonecznik jaskrawy H. ×
+                laetiflorus. Kilka dalszych jest uprawianych, w tym zwłaszcza słonecznik zwyczajny H. annuus.
+                Niejasny jest stopień zadomowienia w Polsce słonecznika olbrzymiego H. giganteus, który odkryty został w
+                2016 roku zdziczały na przydrożu w Połańcu.
+                Słonecznik zwyczajny jest ważną ekonomicznie rośliną oleistą – jego nasiona zawierają 25–32% tłuszczów.
+                Jest też rośliną jadalną, ozdobną i wykorzystywaną leczniczo. Jadalnych bulw dostarcza słonecznik
+                bulwiasty. Różne gatunki uprawiane są jako rośliny ozdobne.
+                Nazwa naukowa rodzaju nawiązuje do kształtu koszyczków i utworzona została z greckich słów helios
+                znaczącego słońce i anthos znaczącego kwiat. </p>
+        </div>
+        <a href="https://pl.wikipedia.org/wiki/S%C5%82onecznik">https://pl.wikipedia.org/wiki/S%C5%82onecznik</a>
+    </div>
+
+    <div class="plant">
+        <h2>Kosmos pierzasty</h2>
+        <div class="flex-container">
+            <img src="images/kosmos-pierzasty.jpg" alt="Kosmos pierzasty" class="image" />
+            <p class="text">Kosmos pierzasty, kosmos podwójnie pierzasty, onętek (Cosmos bipinnatus Cav.) –
+                gatunek rośliny z rodziny astrowatych. Rodzimy obszar jego występowania to Ameryka Środkowa i południowa
+                część Ameryki Północnej, ale rozprzestrzenił się także na niektórych obszarach Azji, na Karaibach i w
+                innych obszarach Ameryki. W wielu krajach świata jest uprawiany jako roślina ozdobna.
+                Roślina roczna dorastająca do wysokości 1,2 m.
+                Łodyga wzniesiona, wydłużona, silnie rozgałęziona.
+                Liście podwójnie pierzastosieczne.
+                Kwiaty zebrane w koszyczki o średnicy do 9 cm. Brzeżne kwiaty w koszyczku języczkowate, do 25 mm
+                długości, purpurowoczerwone, różowe lub białe. Kwiaty środkowe rurkowe, żółte, dające nektar i pyłek.
+                Kwitnie od lipca do października.
+                Owoc wrzecionowatego kształtu, brązowa niełupka o długości 1,5 mm.
+                Uprawiany jako roślina ozdobna. Wymaga słonecznego stanowiska. Nie ma specjalnych wymagań co do gleby,
+                ale lepiej, aby nie była ona zbyt żyzna, gdyż wówczas rozwija się bujnie, ale słabo kwitnie. Rozmnaża
+                się przez wysiew nasion wiosną lub jesienią. Przekwitnięte kwiaty usuwa się. Podczas kwitnienia może
+                wymagać podparcia. Nowsze kultywary mają zwykle bardziej zwarty pokrój i są bardziej odporne na
+                przewracanie się podczas kwitnienia. </p>
+        </div>
+        <a href="https://pl.wikipedia.org/wiki/Kosmos_pierzasty">https://pl.wikipedia.org/wiki/Kosmos_pierzasty</a>
+    </div>
+</body>
+
+</html>
