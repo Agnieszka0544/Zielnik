@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Zielnik zawierający zdjęcia i opisy roślin." />
     <meta name="keywords" content="HTML, CSS" />
-    <meta name="author" content="Agnieszka Trojanowska" />
+    <meta name="author" content="Agnieszka0544" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zielnik</title>
     <style>
@@ -15,16 +15,7 @@
             padding: 0px;
         }
 
-        .header-container {
-            background-color: rgba(255, 255, 255, 0.5);
-            padding-top: 10px;
-            padding-bottom: 4px;
-            padding-left: 90px;
-            padding-right: 100px;
-            justify-self: center;
-        }
-
-        .header-background {
+        header {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -32,9 +23,27 @@
             background-image: url('images/łąka.jpg');
             background-size: 100% auto;
             background-repeat: no-repeat;
-            padding: 100px;
+            padding: 50px;
             background-position: center;
             text-align: center;
+        }
+
+        .p-footer {
+            margin-left: 70px;
+        }
+
+        .footer-container {
+            background-color: rgba(255, 255, 255, 0.45);
+            align-items: end;
+            padding-top: 10px;
+            padding-bottom: 50px;
+        }
+
+        footer {
+            background-image: url('images/łąka.jpg');
+            padding-top: 0px;
+            background-position: bottom;
+            margin-top: 140px;
         }
 
         .flex-container {
@@ -43,25 +52,30 @@
         }
 
         .plant {
-            margin: 70px;
+            margin: 60px 70px 60px 70px;
             padding: 15px
         }
 
         .image {
             width: 550px;
             height: auto;
-            padding-bottom: 10px;
+            margin-bottom: 10px;
         }
 
         h1 {
             font-family: cursive;
-            font-size: 90px;
-            position: relative;
+            font-size: 120px;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding-top: 35px;
+            padding-bottom: 20px;
+            padding-left: 70px;
+            padding-right: 100px;
         }
 
         h2 {
             font-family: cursive;
-            font-size: 50px;
+            font-size: 60px;
+            margin-bottom: 22px;
         }
 
         p {
@@ -76,11 +90,12 @@
                 flex-direction: column;
             }
 
-            .header-container {
-                padding-top: 8px;
-                padding-bottom: 2px;
-                padding-left: 70px;
-                padding-right: 80px;
+            h1 {
+                font-size: 110px;
+                padding-top: 30px;
+                padding-bottom: 15px;
+                padding-left: 62px;
+                padding-right: 90px;
             }
 
             p {
@@ -89,15 +104,17 @@
         }
 
         @media screen and (max-width: 650px) {
-            .header-background {
-                padding: 80px;
+            header {
+                padding: 55px;
             }
 
-            .header-container {
-                padding-top: 3px;
-                padding-bottom: 0px;
-                padding-left: 45px;
-                padding-right: 50px;
+            .footer-container {
+                padding-top: 8px;
+                padding-bottom: 40px;
+            }
+
+            .p-footer {
+                margin-left: 50px;
             }
 
             .plant {
@@ -110,17 +127,35 @@
             }
 
             h1 {
-                font-size: 65px;
+                font-size: 85px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                padding-left: 50px;
+                padding-right: 70px;
             }
 
             h2 {
-                font-size: 30px;
+                font-size: 45px;
+                margin-bottom: 17px;
+            }
+
+            footer {
+                margin-top: 100px;
             }
         }
 
         @media screen and (max-width: 500px) {
-            .header-background {
-                padding: 60px;
+            header {
+                padding: 45px;
+            }
+
+            .footer-container {
+                padding-top: 6px;
+                padding-bottom: 35px;
+            }
+
+            .p-footer {
+                margin-left: 45px;
             }
 
             .plant {
@@ -132,18 +167,32 @@
                 width: 350px;
             }
 
+            h1 {
+                font-size: 70px;
+                padding-top: 15px;
+                padding-bottom: 4px;
+                padding-left: 35px;
+                padding-right: 50px;
+            }
+
+            h2 {
+                font-size: 40px;
+                margin-bottom: 12px;
+            }
+
+            footer {
+                margin-top: 80px;
+            }
+
         }
     </style>
 </head>
 
 <body>
     <!--https://www.petalrepublic.com/how-long-wildflowers-take-to-grow/-->
-    <div class="header-background">
-        <div class="header-container">
-            <h1>Zielnik</h1>
-        </div>
-
-    </div>
+    <header>
+        <h1>Zielnik</h1>
+    </header>
 
     <div class="plant">
         <h2>Mak</h2>
@@ -236,6 +285,12 @@
         </div>
         <a href="https://pl.wikipedia.org/wiki/Kosmos_pierzasty">https://pl.wikipedia.org/wiki/Kosmos_pierzasty</a>
     </div>
+
+    <footer>
+        <div class="footer-container">
+            <p class="p-footer">&#169 Agnieszka0544 2023<br>MIT License</p>
+        </div>
+    </footer>
 </body>
 
 </html>
